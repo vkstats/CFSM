@@ -7,7 +7,7 @@ subtitle: "18 March, King's College London"
 
 This meeting aims to bring together statisticians from across different faculties at King's College London.
 
-The workshop is co-organised by Dr Vasiliki Koutra, Prof Richard Emsley, Prof Daniel Stahl, and Dr Lauren Bell. 
+The workshop is co-organised by Dr Vasiliki Koutra, Prof Richard Emsley, Prof Daniel Stahl, and Dr Lauren Bell.
 
 The meeting is an opportunity to share current statistical work and applications, and identify common interests to help shape follow-up interactions.
 
@@ -39,7 +39,6 @@ The workshop will be held in the [Franklin-Wilkins building](https://www.kcl.ac.
 All scientific sessions are in Room FWB 1.60. Check-in, coffee, lunch and tea are in the Glass Suites.
 
 ## Programme
-
 
 ```{r}
 #| message: false
@@ -92,6 +91,4 @@ prog |>
 
 ## Sponsors
 
-![](images/Kings.png){width=25% fig-align="center"}
-
-
+![](images/Kings.png){width="25%" fig-align="center"}
