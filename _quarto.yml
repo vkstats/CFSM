@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "KCL CFSM 2026"
+  search: false
+  page-footer:
+    center:
+      - text: "© 2026 King's College London. Contact: <a href=\"mailto:vasiliki.koutra@kcl.ac.uk\">vasiliki.koutra@kcl.ac.uk</a>"
+      
+execute: 
+  echo: false
+
+format:
+  html:
+    theme: journal
+    title-block-banner: true
+    css: styles.css
+    toc: true
+    include-after-body: open-links.html
+    include-in-header:
+      - text: |
+          <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+

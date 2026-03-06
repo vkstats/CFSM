@@ -1,0 +1,18 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  document.querySelectorAll("a[href]").forEach(function(link) {
+
+    if (link.href.startsWith("mailto:") || link.href.startsWith("tel:")) return;
+
+    const url = new URL(link.href, window.location.href);
+
+    if (url.hostname !== window.location.hostname) {
+      link.target = "_blank";
+      link.rel = "noopener";
+    }
+
+  });
+
+});
+</script>
