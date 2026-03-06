@@ -5,7 +5,11 @@ subtitle: "18 March, King's College London"
 
 ## About
 
-This meeting is an opportunity for statisticians at KCL to meet each other, share current work and applications, and identify common interests to help shape follow-up interactions and meetings.
+This meeting aims to bring together statisticians from across different faculties at King's College London.
+
+The workshop is co-organised by Dr Vasiliki Koutra, Prof Richard Emsley, Prof Daniel Stahl, and Dr Lauren Bell. 
+
+The meeting is an opportunity to share current statistical work and applications, and identify common interests to help shape follow-up interactions.
 
 ## Location
 
