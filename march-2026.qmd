@@ -1,6 +1,6 @@
 ---
 title: "Cross-Faculty Statistics Meeting 2026"
-subtitle: "8 September, King's College London"
+subtitle: "18 March, King's College London"
 ---
 
 ## About
@@ -21,18 +21,22 @@ library(leaflet)
 leaflet() |>
   addTiles() |>
   setView(
-    lat = 51.51152294740334,  
-    lng = -0.11629362859734484,
+    lat = 51.505595951794255, 
+    lng = -0.11230186368966893,
     zoom = 16) |>
   addMarkers(
-    lat = 51.51152294740334,  
-    lng = -0.11629362859734484,
-    popup = "<a href = \"https://www.google.com/maps/dir/?api=1&destination=51.51195839821278,-0.11659050419246998\">Directions to the Strand Campus</a>"
-  )
+    lat = 51.505595951794255, 
+    lng = -0.11230186368966893,
+    popup = paste0(
+  '<b>Franklin Wilkins Building</b><br>',
+  '<a href="https://www.google.com/maps/dir/?api=1&destination=Franklin+Wilkins+Building+Kings+College+London" target="_blank">',
+  'Get directions</a>')
+)
 ```
 
-The workshop will be held in the [Council Room](https://www.kcl.ac.uk/kingsvenues/rooms/strand-council-room) of the [King's Building](https://www.kcl.ac.uk/visit/kings-building) on the [Strand Campus](https://www.kcl.ac.uk/visit/strand-campus). The main entrance is via the [Strand Building](https://www.kcl.ac.uk/visit/strand-building).
+The workshop will be held in the [Franklin-Wilkins building](https://www.kcl.ac.uk/visit/franklin-wilkins-building) on the [Waterloo Campus](https://www.kcl.ac.uk/visit/waterloo-campus). The main entrance is on [Stamford Street](https://www.kcl.ac.uk/assets/pdf24/waterloo-detail-map-2025.pdf).
 
+All scientific sessions are in Room FWB 1.60. Check-in, coffee, lunch and tea are in the Glass Suites.
 
 ## Programme
 
@@ -44,7 +48,7 @@ library(readr)
 library(janitor)
 library(dplyr)
 
-prog <- read_csv("data/schedule_sept-2026.csv", 
+prog <- read_csv("data/schedule_march-2026.csv", 
                  col_types = cols(.default = col_character()))
 prog <- clean_names(prog)
 ```
@@ -84,11 +88,6 @@ prog |>
     }
   )
 ```
-
-## Previous meetings
-
-[18 March 2026](march-2026.html)
-
 
 ## Sponsors
 
