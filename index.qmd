@@ -5,7 +5,7 @@ subtitle: "8 September, King's College London"
 
 ## About
 
-This meeting aims to bring together statisticians from across different faculties at King's College London to share current research and applications, exchange ideas, and explore common interests and opportunities for Interdisciplinary collaborations.
+This meeting aims to bring together statisticians from across different faculties at King's College London to share current research and applications, exchange ideas, and explore common interests and opportunities for interdisciplinary collaborations.
 
 It is co-organised by Dr Vasiliki Koutra, Prof Richard Emsley, Prof Daniel Stahl, and Dr Lauren Bell and it forms part of King's Statistics; an initiative to connect and strenghten the University's statistical community, raise its profile, and turn shared expertise into new opportunities for research, training, external partnerships and funding.
 
